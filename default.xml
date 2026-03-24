@@ -2,6 +2,7 @@
 <manifest>
   <remote name="github" fetch="https://github.com"/>
   <remote name="github-ssh" fetch="ssh://git@github.com"/>
+  <remote name="los-clo" fetch=".." revision="lineage-23.0"/>
   <!-- CLO -->
   <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false"/>
   <default remote="clo-la"/>
@@ -9,4 +10,6 @@
   <include name="snippets/vendor.xml"/>
   <!-- Obsolete -->
   <include name="snippets/obsolete.xml"/>
+  <!-- LineageOS-x-CLO -->
+  <include name="snippets/lineage-clo.xml"/>
 </manifest>

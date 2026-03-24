@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Bionic -->
+  <remove-project name="platform/bionic" />
+  <project path="bionic" name="LineageOS-x-CLO/android_bionic" remote="los-clo" />
+
+  <!-- Bootable Recovery -->
+  <remove-project name="platform/bootable/recovery" />
+  <project path="bootable/recovery" name="LineageOS-x-CLO/android_bootable_recovery" remote="los-clo" />
+
+  <!-- Build -->
+  <remove-project name="platform/build_repo" />
+  <project path="build/make" name="LineageOS-x-CLO/android_build" remote="los-clo" >
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <remove-project name="platform/build/soong" />
+  <project path="build/soong" name="LineageOS-x-CLO/android_build_soong" remote="los-clo" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Development -->
+  <remove-project name="platform/development" />
+  <project path="development" name="LineageOS-x-CLO/android_development" remote="los-clo" clone-depth="1" />
+
+  <!-- Device -->
+  <remove-project name="device/qcom/sepolicy" />
+  <project path="device/qcom/sepolicy" name="LineageOS-x-CLO/android_device_qcom_sepolicy" remote="los-clo" />
+  <project path="device/qcom/sepolicy_vndr/sm8850" name="LineageOS-x-CLO/android_device_qcom_sepolicy_vndr" remote="los-clo" revision="lineage-23.0-caf-sm8850" />
+
+  <!-- External -->
+  <remove-project name="platform/external/arm-trusted-firmware" />
+  <project path="external/arm-trusted-firmware" name="LineageOS-x-CLO/android_external_arm-trusted-firmware" remote="los-clo" />
+  <remove-project name="platform/external/avb" />
+  <project path="external/avb" name="LineageOS-x-CLO/android_external_avb" remote="los-clo" />
+  <remove-project name="platform/external/dng_sdk" />
+  <project path="external/dng_sdk" name="LineageOS-x-CLO/android_external_dng_sdk" remote="los-clo" />
+  <remove-project name="platform/external/dtc" />
+  <project path="external/dtc" name="LineageOS-x-CLO/android_external_dtc" remote="los-clo" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="LineageOS-x-CLO/android_external_e2fsprogs" remote="los-clo" />
+  <remove-project name="platform/external/fastrpc" />
+  <project path="external/fastrpc" name="LineageOS-x-CLO/android_external_fastrpc" remote="los-clo" />
+  <remove-project name="platform/external/gptfdisk" />
+  <project path="external/gptfdisk" name="LineageOS-x-CLO/android_external_gptfdisk" remote="los-clo" />
+  <remove-project name="platform/external/json-c" />
+  <project path="external/json-c" name="LineageOS-x-CLO/android_external_json-c" remote="los-clo" />
+  <remove-project name="platform/external/mksh" />
+  <project path="external/mksh" name="LineageOS-x-CLO/android_external_mksh" remote="los-clo" />
+  <remove-project name="platform/external/setupcompat" />
+  <project path="external/setupcompat" name="LineageOS-x-CLO/android_external_setupcompat" remote="los-clo" />
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="LineageOS-x-CLO/android_external_tinycompress" remote="los-clo" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="LineageOS-x-CLO/android_external_wpa_supplicant_8" remote="los-clo" />
+  <remove-project name="platform/external/zstd" />
+  <project path="external/zstd" name="LineageOS-x-CLO/android_external_zstd" remote="los-clo" />
+
+  <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
+  <project path="frameworks/av" name="LineageOS-x-CLO/android_frameworks_av" remote="los-clo" />
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="LineageOS-x-CLO/android_frameworks_base" remote="los-clo" />
+  <remove-project name="platform/frameworks/libs/systemui" />
+  <project path="frameworks/libs/systemui" name="LineageOS-x-CLO/android_frameworks_libs_systemui" remote="los-clo" />
+  <remove-project name="platform/frameworks/native" />
+  <project path="frameworks/native" name="LineageOS-x-CLO/android_frameworks_native" remote="los-clo" />
+  <remove-project name="platform/frameworks/opt/telephony" />
+  <project path="frameworks/opt/telephony" name="LineageOS-x-CLO/android_frameworks_opt_telephony" remote="los-clo" />
+
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/broadcom/libbt" />
+  <project path="hardware/broadcom/libbt" name="LineageOS-x-CLO/android_hardware_broadcom_libbt" remote="los-clo" />
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="LineageOS-x-CLO/android_hardware_interfaces" remote="los-clo" />
+  <project path="hardware/lineage/compat" name="LineageOS-x-CLO/android_hardware_lineage_compat" remote="los-clo" />
+  <remove-project name="platform/hardware/libhardware" />
+  <project path="hardware/libhardware" name="LineageOS-x-CLO/android_hardware_libhardware" remote="los-clo" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <project path="hardware/nxp/nfc" name="LineageOS-x-CLO/android_hardware_nxp_nfc" remote="los-clo" />
+  <remove-project name="platform/hardware/samsung/nfc" />
+  <project path="hardware/samsung/nfc" name="LineageOS-x-CLO/android_hardware_samsung_nfc" remote="los-clo" />
+  <remove-project name="platform/hardware/st/nfc" />
+  <project path="hardware/st/nfc" name="LineageOS-x-CLO/android_hardware_st_nfc" remote="los-clo" />
+
+  <!-- Hardware qcom-caf -->
+  <remove-project name="platform/hardware/qcom/bootctrl" />
+  <project path="hardware/qcom-caf/bootctrl" name="LineageOS-x-CLO/android_hardware_qcom_bootctrl" remote="los-clo" />
+  <remove-project name="platform/hardware/qcom/thermal" />
+  <project path="hardware/qcom-caf/thermal" name="LineageOS-x-CLO/android_hardware_qcom_thermal" remote="los-clo" />
+  <project path="hardware/qcom-caf/wlan" name="LineageOS-x-CLO/android_hardware_qcom_wlan" remote="los-clo" />
+  <remove-project name="device/qcom/common" />
+  <project path="device/qcom/common" name="LineageOS-x-CLO/android_device_qcom_common" remote="los-clo" >
+    <linkfile src="os_pickup_sepolicy_vndr.mk" dest="device/qcom/sepolicy_vndr/SEPolicy.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8550/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8650/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8750/Android.bp" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8850/Android.bp" />
+  </project>
+
+  <project path="hardware/qcom-caf/sm8850/audio/primary-hal" name="LineageOS-x-CLO/android_hardware_qcom_audio-ar" remote="los-clo" revision="lineage-23.0-caf-sm8850" />
+
+  <!-- Manifest -->
+  <project path="manifest" name="LineageOS-x-CLO/android" remote="los-clo" />
+
+  <!-- Packages apps -->
+  <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
+  <project path="packages/apps/CellBroadcastReceiver" name="LineageOS-x-CLO/android_packages_apps_CellBroadcastReceiver" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <project path="packages/apps/Contacts" name="LineageOS-x-CLO/android_packages_apps_Contacts" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <project path="packages/apps/Dialer" name="LineageOS-x-CLO/android_packages_apps_Dialer" remote="los-clo" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <project path="packages/apps/DocumentsUI" name="LineageOS-x-CLO/android_packages_apps_DocumentsUI" remote="los-clo" />
+  <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <project path="packages/apps/EmergencyInfo" name="LineageOS-x-CLO/android_packages_apps_EmergencyInfo" remote="los-clo" />
+  <project path="packages/apps/Etar" name="LineageOS-x-CLO/android_packages_apps_Etar" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/Launcher3" name="LineageOS-x-CLO/android_packages_apps_Launcher3" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="LineageOS-x-CLO/android_packages_apps_Messaging" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Settings" />
+  <project path="packages/apps/Settings" name="LineageOS-x-CLO/android_packages_apps_Settings" remote="los-clo" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <project path="packages/apps/SettingsIntelligence" name="LineageOS-x-CLO/android_packages_apps_SettingsIntelligence" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Stk" />
+  <project path="packages/apps/Stk" name="LineageOS-x-CLO/android_packages_apps_Stk" remote="los-clo" />
+  <remove-project name="platform/packages/apps/Tag" />
+  <project path="packages/apps/Tag" name="LineageOS-x-CLO/android_packages_apps_Tag" remote="los-clo" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <project path="packages/apps/ThemePicker" name="LineageOS-x-CLO/android_packages_apps_ThemePicker" remote="los-clo" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
+  <project path="packages/apps/WallpaperPicker2" name="LineageOS-x-CLO/android_packages_apps_WallpaperPicker2" remote="los-clo" />
+
+  <!-- Packages inputmethods --> 
+  <remove-project name="platform/packages/inputmethods/LeanbackIME" />
+  <project path="packages/inputmethods/LeanbackIME" name="LineageOS-x-CLO/android_packages_inputmethods_LeanbackIME" remote="los-clo" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS-x-CLO/android_packages_inputmethods_LatinIME" remote="los-clo" />
+
+  <!-- Packages modules --> 
+  <remove-project name="platform/packages/modules/Bluetooth" />
+  <project path="packages/modules/Bluetooth" name="LineageOS-x-CLO/android_packages_modules_Bluetooth" remote="los-clo" />
+  <remove-project name="platform/packages/modules/Nfc" />
+  <project path="packages/modules/Nfc" name="LineageOS-x-CLO/android_packages_modules_Nfc" remote="los-clo" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <project path="packages/modules/Permission" name="LineageOS-x-CLO/android_packages_modules_Permission" remote="los-clo" />
+  <remove-project name="platform/packages/modules/UprobeStats" />
+  <project path="packages/modules/UprobeStats" name="LineageOS-x-CLO/android_packages_modules_UprobeStats" remote="los-clo" />
+  <remove-project name="platform/packages/modules/Wifi" />
+  <project path="packages/modules/Wifi" name="LineageOS-x-CLO/android_packages_modules_Wifi" remote="los-clo" />
+  <remove-project name="platform/packages/modules/adb" />
+  <project path="packages/modules/adb" name="LineageOS-x-CLO/android_packages_modules_adb" remote="los-clo" />
+  <remove-project name="platform/packages/modules/common" />
+  <project path="packages/modules/common" name="LineageOS-x-CLO/android_packages_modules_common" remote="los-clo" />
+  <remove-project name="platform/packages/providers/BlockedNumberProvider" />
+
+  <!-- Packages providers -->     
+  <project path="packages/providers/BlockedNumberProvider" name="LineageOS-x-CLO/android_packages_providers_BlockedNumberProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/BookmarkProvider" />
+  <project path="packages/providers/BookmarkProvider" name="LineageOS-x-CLO/android_packages_providers_BookmarkProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/CalendarProvider" />
+  <project path="packages/providers/CalendarProvider" name="LineageOS-x-CLO/android_packages_providers_CalendarProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/CallLogProvider" />
+  <project path="packages/providers/CallLogProvider" name="LineageOS-x-CLO/android_packages_providers_CallLogProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
+  <project path="packages/providers/ContactsProvider" name="LineageOS-x-CLO/android_packages_providers_ContactsProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="LineageOS-x-CLO/android_packages_providers_DownloadProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/MediaProvider" />
+  <project path="packages/providers/MediaProvider" name="LineageOS-x-CLO/android_packages_providers_MediaProvider" remote="los-clo" />
+  <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <project path="packages/providers/TelephonyProvider" name="LineageOS-x-CLO/android_packages_providers_TelephonyProvider" remote="los-clo" />
+  <remove-project name="platform/packages/screensavers/PhotoTable" />
+
+  <!-- Packages resources  -->  
+  <project path="packages/resources/devicesettings" name="LineageOS-x-CLO/android_packages_resources_devicesettings" remote="los-clo" />
+
+  <!-- Packages screensavers -->     
+  <project path="packages/screensavers/PhotoTable" name="LineageOS-x-CLO/android_packages_screensavers_PhotoTable" remote="los-clo" />
+  <remove-project name="platform/packages/services/DeviceAsWebcam" />
+
+  <!-- Packages services -->    
+  <project path="packages/services/DeviceAsWebcam" name="LineageOS-x-CLO/android_packages_services_DeviceAsWebcam" remote="los-clo" />
+  <remove-project name="platform/packages/services/Mms" />
+  <project path="packages/services/Mms" name="LineageOS-x-CLO/android_packages_services_Mms" remote="los-clo" />
+  <remove-project name="platform/packages/services/Telephony" />
+  <project path="packages/services/Telephony" name="LineageOS-x-CLO/android_packages_services_Telephony" remote="los-clo" />
+
+  <!-- Packages wallpapers --> 
+  <remove-project name="platform/packages/wallpapers/LivePicker" />
+  <project path="packages/wallpapers/LivePicker" name="LineageOS-x-CLO/android_packages_wallpapers_LivePicker" remote="los-clo" />
+
+  <!-- SDclang -->
+  <project path="vendor/qcom/sdclang" name="LineageOS-x-CLO/proprietary_vendor_qcom_sdclang" clone-depth="1" remote="los-clo" />
+
+  <!-- System -->
+  <remove-project name="platform/system/chre" />
+  <project path="system/chre" name="LineageOS-x-CLO/android_system_chre" remote="los-clo" />
+  <remove-project name="platform/system/core" />
+  <project path="system/core" name="LineageOS-x-CLO/android_system_core" remote="los-clo" />
+  <remove-project name="platform/system/keymaster" />
+  <project path="system/keymaster" name="LineageOS-x-CLO/android_system_keymaster" remote="los-clo" />
+  <remove-project name="platform/system/libziparchive" />
+  <project path="system/libziparchive" name="LineageOS-x-CLO/android_system_libziparchive" remote="los-clo" />
+  <remove-project name="platform/system/logging" />
+  <project path="system/logging" name="LineageOS-x-CLO/android_system_logging" remote="los-clo" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="LineageOS-x-CLO/android_system_media" remote="los-clo" />
+  <remove-project name="platform/system/netd" />
+  <project path="system/netd" name="LineageOS-x-CLO/android_system_netd" remote="los-clo" />
+  <remove-project name="platform/system/sepolicy" />
+  <project path="system/sepolicy" name="LineageOS-x-CLO/android_system_sepolicy" remote="los-clo" />
+  <remove-project name="platform/system/update_engine" />
+  <project path="system/update_engine" name="LineageOS-x-CLO/android_system_update_engine" remote="los-clo" />
+  <remove-project name="platform/system/vold" />
+  <project path="system/vold" name="LineageOS-x-CLO/android_system_vold" remote="los-clo" />
+
+  <!-- Vendor -->
+  <project path="vendor/lineage" name="LineageOS-x-CLO/android_vendor_lineage" remote="los-clo" />
+
+  <!-- Vendor (QCOM QSSI) -->
+  <remove-project name="platform/vendor/qcom-opensource/audio" />
+  <project path="vendor/qcom/opensource/commonsys/audio" name="LineageOS-x-CLO/android_vendor_qcom_opensource_commonsys_audio" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/bluetooth" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth" name="LineageOS-x-CLO/android_vendor_qcom_opensource_commonsys_bluetooth" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils" />
+  <project path="vendor/qcom/opensource/core-utils" name="LineageOS-x-CLO/android_vendor_qcom_opensource_core-utils" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/crosvm-gunyah" />
+  <project path="vendor/qcom/opensource/crosvm-gunyah" name="LineageOS-x-CLO/android_vendor_qcom_opensource_crosvm-gunyah" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS-x-CLO/android_vendor_qcom_opensource_dataservices" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="LineageOS-x-CLO/android_vendor_qcom_opensource_display-commonsys-intf" remote="los-clo" >
+    <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
+    <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
+  </project>
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="LineageOS-x-CLO/android_vendor_qcom_opensource_display-commonsys" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <project path="vendor/qcom/opensource/commonsys/fm" name="LineageOS-x-CLO/android_vendor_qcom_opensource_fm-commonsys" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
+  <project path="vendor/qcom/opensource/interfaces" name="LineageOS-x-CLO/android_vendor_qcom_opensource_interfaces" remote="los-clo" />
+  <remove-project name="platform/vendor/codeaurora/telephony" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS-x-CLO/android_vendor_codeaurora_telephony" remote="los-clo" />
+
+  <!-- Vendor (QCOM Vendor) -->
+  <project path="vendor/qcom/common" name="LineageOS-x-CLO/proprietary_vendor_qcom_common" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-vendor" />
+  <project path="vendor/qcom/opensource/core-utils-vendor" name="LineageOS-x-CLO/android_vendor_qcom_opensource_core-utils-vendor" remote="los-clo" />
+  <project path="vendor/qcom/opensource/display" name="LineageOS-x-CLO/android_vendor_qcom_opensource_display" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/healthd-ext" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS-x-CLO/android_vendor_qcom_opensource_healthd-ext" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/power" />
+  <project path="vendor/qcom/opensource/power" name="LineageOS-x-CLO/android_vendor_qcom_opensource_power" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/usb" />
+  <project path="vendor/qcom/opensource/usb" name="LineageOS-x-CLO/android_vendor_qcom_opensource_usb" remote="los-clo" />
+  <remove-project name="platform/vendor/qcom-opensource/vibrator" />
+  <project path="vendor/qcom/opensource/vibrator" name="LineageOS-x-CLO/android_vendor_qcom_opensource_vibrator" remote="los-clo" />
+  <project path="vendor/qcom/opensource/commonsys/wfd" name="LineageOS-x-CLO/android_vendor_qcom_opensource_wfd-commonsys" remote="los-clo" />
+
+</manifest>
