@@ -20,5 +20,6 @@
            sync-c="true" />
 
   <include name="system.xml"/>
+  <include name="obsolete.xml"/>
 
 </manifest>
