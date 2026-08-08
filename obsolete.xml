@@ -17,6 +17,14 @@
   <remove-project name="device/linaro/dragonboard-kernel"/>
   <remove-project name="device/qcom/qssi_32"/>
   <remove-project name="device/qcom/qssi_32go"/>
+  <remove-project name="device/qcom/sepolicy"/>
+
+  <!-- External -->
+  <remove-project name="platform/external/chromium-webview"/>
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/DeskClock"/>
+  <remove-project name="platform/packages/apps/Gallery2"/>
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/6.1/arm64"/>
@@ -57,5 +65,14 @@
   <remove-project name="platform/system/software_defined_vehicle/update_manager" />
   <remove-project name="platform/system/software_defined_vehicle/vpm" />
   <remove-project name="platform/system/software_defined_vehicle/vsidl" />
+
+  <!-- Vendor -->
+  <remove-project name="platform/vendor/qcom/opensource/commonsys-intf/audio" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys-intf" />
+  <remove-project name="platform/vendor/qcom-opensource/audio" />
+  <remove-project name="platform/vendor/qcom-opensource/display-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/fm-commonsys" />
+  <remove-project name="platform/vendor/qcom-opensource/core-utils-sys" />
+  <remove-project name="platform/vendor/qcom-opensource/interfaces" />
 
 </manifest>

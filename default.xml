@@ -21,5 +21,6 @@
 
   <include name="system.xml"/>
   <include name="obsolete.xml"/>
+  <include name="lineage.xml"/>
 
 </manifest>
