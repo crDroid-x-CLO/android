@@ -23,6 +23,7 @@
   <remove-project name="platform/external/chromium-webview"/>
 
   <!-- Packages -->
+  <remove-project name="platform/packages/apps/Calendar"/>
   <remove-project name="platform/packages/apps/DeskClock"/>
   <remove-project name="platform/packages/apps/Gallery2"/>
 
