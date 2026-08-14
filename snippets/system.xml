@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote fetch="https://git.codelinaro.org/clo/la" name="clo-la"/>
-  <default remote="clo-la" revision="dummy_revision" sync-c="true" sync-tags="false"/>
   <project remote="clo-la" name="device/amlogic/yukawa" path="device/amlogic/yukawa" revision="8b2e2f1edf5be0eb61f53ed4483bffc2f3b9ba88" upstream="refs/heads/ks-aosp.lnx.17.0.r1-rel" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,device,pdk,trunk-fs-release,yukawa,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="device/amlogic/yukawa-kernel" path="device/amlogic/yukawa-kernel" revision="749334b221b38ae37294c79c34e82718a35873dc" upstream="refs/heads/ks-aosp.lnx.17.0.r1-rel" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,device,pdk,trunk-fs-release,yukawa,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
   <project remote="clo-la" name="device/common" path="device/common" revision="428a3a67cf7f6cb2e2c7ee49a5ad289f4d1bb535" upstream="refs/heads/ks-aosp.lnx.17.0.r1-rel" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,pdk-cw-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3"/>
