@@ -4,8 +4,10 @@
   <remote name="github-ssh" fetch="ssh://git@github.com"/>
   <!-- CLO -->
   <remote name="clo-la" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false"/>
+  <remote name="clo-la-shallow" fetch="https://git.codelinaro.org/clo/la" sync-c="true" sync-tags="false" revision="refs/tags/LA.QSSI.17.0.r1-10300-qssi.0"/>
   <default remote="clo-la"/>
   <include name="snippets/system.xml"/>
+  <include name="snippets/system-shallow.xml"/>
   <include name="snippets/vendor.xml"/>
   <!-- Obsolete -->
   <include name="snippets/obsolete.xml"/>

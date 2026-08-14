@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remove-project name="device/google/cuttlefish_prebuilts"/>
+<project remote="clo-la-shallow" name="device/google/cuttlefish_prebuilts" path="device/google/cuttlefish_prebuilts" clone-depth="1"/>
+<remove-project name="device/google/cuttlefish_vmm"/>
+<project remote="clo-la-shallow" name="device/google/cuttlefish_vmm" path="device/google/cuttlefish_vmm" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/5.10/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/5.10/arm64" path="kernel/prebuilts/5.10/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/5.15/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/5.15/arm64" path="kernel/prebuilts/5.15/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.12/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.12/x86-64" path="kernel/prebuilts/6.12/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.18/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.18/arm64" path="kernel/prebuilts/6.18/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/trusty/6.6/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/trusty/6.6/arm64" path="kernel/prebuilts/common-modules/trusty/6.6/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" path="kernel/prebuilts/common-modules/virtual-device/5.10/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" path="kernel/prebuilts/common-modules/virtual-device/6.1/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" path="kernel/prebuilts/common-modules/virtual-device/6.12/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" path="kernel/prebuilts/common-modules/virtual-device/6.12/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/mainline/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/mainline/x86-64" path="kernel/prebuilts/mainline/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/5.10/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/5.10/x86-64" path="kernel/prebuilts/5.10/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/5.15/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/5.15/x86-64" path="kernel/prebuilts/5.15/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.1/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.1/arm64" path="kernel/prebuilts/6.1/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.1/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.1/x86-64" path="kernel/prebuilts/6.1/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.12/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.12/arm64" path="kernel/prebuilts/6.12/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.18/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.18/x86-64" path="kernel/prebuilts/6.18/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.6/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.6/arm64" path="kernel/prebuilts/6.6/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/6.6/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/6.6/x86-64" path="kernel/prebuilts/6.6/x86_64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/trusty/6.12/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/trusty/6.12/arm64" path="kernel/prebuilts/common-modules/trusty/6.12/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/trusty/6.18/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/trusty/6.18/arm64" path="kernel/prebuilts/common-modules/trusty/6.18/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" path="kernel/prebuilts/common-modules/virtual-device/5.10/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" path="kernel/prebuilts/common-modules/virtual-device/5.15/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" path="kernel/prebuilts/common-modules/virtual-device/5.15/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" path="kernel/prebuilts/common-modules/virtual-device/6.1/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.18/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" path="kernel/prebuilts/common-modules/virtual-device/6.18/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" path="kernel/prebuilts/common-modules/virtual-device/6.18/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" path="kernel/prebuilts/common-modules/virtual-device/6.6/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" path="kernel/prebuilts/common-modules/virtual-device/6.6/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" path="kernel/prebuilts/common-modules/virtual-device/mainline/arm64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" path="kernel/prebuilts/common-modules/virtual-device/mainline/x86-64" clone-depth="1"/>
+<remove-project name="kernel/prebuilts/mainline/arm64"/>
+<project remote="clo-la-shallow" name="kernel/prebuilts/mainline/arm64" path="kernel/prebuilts/mainline/arm64" clone-depth="1"/>
+<remove-project name="platform/cts"/>
+<project remote="clo-la-shallow" name="platform/cts" path="cts" clone-depth="1"/>
+<remove-project name="platform/external/chromium-webview"/>
+<project remote="clo-la-shallow" name="platform/external/chromium-webview" path="external/chromium-webview" clone-depth="1"/>
+<remove-project name="platform/external/angle"/>
+<project remote="clo-la-shallow" name="platform/external/angle" path="external/angle" clone-depth="1"/>
+<remove-project name="platform/external/kotlinc"/>
+<project remote="clo-la-shallow" name="platform/external/kotlinc" path="external/kotlinc" clone-depth="1"/>
+<remove-project name="platform/external/cronet"/>
+<project remote="clo-la-shallow" name="platform/external/cronet" path="external/cronet" clone-depth="1"/>
+<remove-project name="platform/external/deqp"/>
+<project remote="clo-la-shallow" name="platform/external/deqp" path="external/deqp" clone-depth="1"/>
+<remove-project name="platform/external/icu"/>
+<project remote="clo-la-shallow" name="platform/external/icu" path="external/icu" clone-depth="1"/>
+<remove-project name="platform/external/opencl/llvm-project"/>
+<project remote="clo-la-shallow" name="platform/external/opencl/llvm-project" path="external/opencl/llvm-project" clone-depth="1"/>
+<remove-project name="platform/external/openwrt-prebuilts"/>
+<project remote="clo-la-shallow" name="platform/external/openwrt-prebuilts" path="external/openwrt-prebuilts" clone-depth="1"/>
+<remove-project name="platform/external/swiftshader"/>
+<project remote="clo-la-shallow" name="platform/external/swiftshader" path="external/swiftshader" clone-depth="1"/>
+<remove-project name="platform/external/bpftool"/>
+<project remote="clo-la-shallow" name="platform/external/bpftool" path="external/bpftool" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/MediaPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/MediaPrebuilt" path="packages/apps/Car/MediaPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/RotaryImePrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/RotaryImePrebuilt" path="packages/apps/Car/RotaryImePrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/TemplatesPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/TemplatesPrebuilt" path="packages/apps/Car/TemplatesPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/CalendarPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/CalendarPrebuilt" path="packages/apps/Car/CalendarPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/DialerPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/DialerPrebuilt" path="packages/apps/Car/DialerPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/DriverUIPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/DriverUIPrebuilt" path="packages/apps/Car/DriverUIPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/MessengerPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/MessengerPrebuilt" path="packages/apps/Car/MessengerPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/apps/Car/RadioPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/apps/Car/RadioPrebuilt" path="packages/apps/Car/RadioPrebuilt" clone-depth="1"/>
+<remove-project name="platform/packages/modules/ArtPrebuilt"/>
+<project remote="clo-la-shallow" name="platform/packages/modules/ArtPrebuilt" path="packages/modules/ArtPrebuilt" clone-depth="1"/>
+<remove-project name="platform/prebuilts/abi-dumps/vndk"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/abi-dumps/vndk" path="prebuilts/abi-dumps/vndk" clone-depth="1"/>
+<remove-project name="platform/prebuilts/bundletool"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/bundletool" path="prebuilts/bundletool" clone-depth="1"/>
+<remove-project name="platform/prebuilts/cmake/linux-x86"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/cmake/linux-x86" path="prebuilts/cmake/linux-x86" clone-depth="1"/>
+<remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" clone-depth="1"/>
+<remove-project name="platform/prebuilts/gradle-plugin"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" clone-depth="1"/>
+<remove-project name="platform/prebuilts/jdk/jdk21"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/jdk/jdk21" path="prebuilts/jdk/jdk21" clone-depth="1"/>
+<remove-project name="platform/prebuilts/jdk/jdk25"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/jdk/jdk25" path="prebuilts/jdk/jdk25" clone-depth="1"/>
+<remove-project name="platform/prebuilts/ktlint"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/ktlint" path="prebuilts/ktlint" clone-depth="1"/>
+<remove-project name="platform/prebuilts/maven_repo/bumptech"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/maven_repo/bumptech" path="prebuilts/maven_repo/bumptech" clone-depth="1"/>
+<remove-project name="platform/prebuilts/misc"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/misc" path="prebuilts/misc" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/AdServices"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/AdServices" path="prebuilts/module_sdk/AdServices" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/AppSearch"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/AppSearch" path="prebuilts/module_sdk/AppSearch" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/art"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/art" path="prebuilts/module_sdk/art" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/ConfigInfrastructure"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/ConfigInfrastructure" path="prebuilts/module_sdk/ConfigInfrastructure" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Connectivity"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Connectivity" path="prebuilts/module_sdk/Connectivity" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/DeviceLock"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/DeviceLock" path="prebuilts/module_sdk/DeviceLock" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/HealthFitness"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/HealthFitness" path="prebuilts/module_sdk/HealthFitness" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/OnDevicePersonalization"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/OnDevicePersonalization" path="prebuilts/module_sdk/OnDevicePersonalization" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Permission"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Permission" path="prebuilts/module_sdk/Permission" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Profiling"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Profiling" path="prebuilts/module_sdk/Profiling" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/RemoteKeyProvisioning"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/RemoteKeyProvisioning" path="prebuilts/module_sdk/RemoteKeyProvisioning" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/UprobeStats"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/UprobeStats" path="prebuilts/module_sdk/UprobeStats" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Uwb"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Uwb" path="prebuilts/module_sdk/Uwb" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Wifi"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Wifi" path="prebuilts/module_sdk/Wifi" clone-depth="1"/>
+<remove-project name="platform/prebuilts/r8"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/r8" path="prebuilts/r8" clone-depth="1"/>
+<remove-project name="platform/prebuilts/remoteexecution-client"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/remoteexecution-client" path="prebuilts/remoteexecution-client" clone-depth="1"/>
+<remove-project name="platform/prebuilts/runtime"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/runtime" path="prebuilts/runtime" clone-depth="1"/>
+<remove-project name="platform/prebuilts/sdk"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/sdk" path="prebuilts/sdk" clone-depth="1"/>
+<remove-project name="platform/prebuilts/tools"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/tools" path="prebuilts/tools" clone-depth="1"/>
+<remove-project name="platform/prebuilts/vndk/v31"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/vndk/v31" path="prebuilts/vndk/v31" clone-depth="1"/>
+<remove-project name="platform/prebuilts/vndk/v34"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/vndk/v34" path="prebuilts/vndk/v34" clone-depth="1"/>
+<remove-project name="platform/prebuilts/abi-dumps/ndk"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" clone-depth="1"/>
+<remove-project name="platform/prebuilts/abi-dumps/platform"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/abi-dumps/platform" path="prebuilts/abi-dumps/platform" clone-depth="1"/>
+<remove-project name="platform/prebuilts/android-emulator"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/android-emulator" path="prebuilts/android-emulator" clone-depth="1"/>
+<remove-project name="platform/prebuilts/asuite"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/asuite" path="prebuilts/asuite" clone-depth="1"/>
+<remove-project name="platform/prebuilts/bazel/common"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/bazel/common" path="prebuilts/bazel/common" clone-depth="1"/>
+<remove-project name="platform/prebuilts/bazel/darwin-x86_64"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/bazel/darwin-x86_64" path="prebuilts/bazel/darwin-x86_64" clone-depth="1"/>
+<remove-project name="platform/prebuilts/build-tools"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/build-tools" path="prebuilts/build-tools" clone-depth="1"/>
+<remove-project name="platform/prebuilts/checkcolor"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/checkcolor" path="prebuilts/checkcolor" clone-depth="1"/>
+<remove-project name="platform/prebuilts/checkstyle"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/checkstyle" path="prebuilts/checkstyle" clone-depth="1"/>
+<remove-project name="platform/prebuilts/cipd"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/cipd" path="prebuilts/cipd" clone-depth="1"/>
+<remove-project name="platform/prebuilts/clang-tools"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/clang-tools" path="prebuilts/clang-tools" clone-depth="1"/>
+<remove-project name="platform/prebuilts/clang/host/linux-x86"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/clang/host/linux-x86" path="prebuilts/clang/host/linux-x86" clone-depth="1"/>
+<remove-project name="platform/prebuilts/cmdline-tools"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/cmdline-tools" path="prebuilts/cmdline-tools" clone-depth="1"/>
+<remove-project name="platform/prebuilts/devtools"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/devtools" path="prebuilts/devtools" clone-depth="1"/>
+<remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" clone-depth="1"/>
+<remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" clone-depth="1"/>
+<remove-project name="platform/prebuilts/go/linux-x86"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/go/linux-x86" path="prebuilts/go/linux-x86" clone-depth="1"/>
+<remove-project name="platform/prebuilts/jdk/jdk8"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/jdk/jdk8" path="prebuilts/jdk/jdk8" clone-depth="1"/>
+<remove-project name="platform/prebuilts/manifest-merger"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/manifest-merger" path="prebuilts/manifest-merger" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Bluetooth"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Bluetooth" path="prebuilts/module_sdk/Bluetooth" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/conscrypt"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/conscrypt" path="prebuilts/module_sdk/conscrypt" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/CrashRecovery"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/CrashRecovery" path="prebuilts/module_sdk/CrashRecovery" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/IPsec"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/IPsec" path="prebuilts/module_sdk/IPsec" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Media"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Media" path="prebuilts/module_sdk/Media" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/MediaProvider"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/MediaProvider" path="prebuilts/module_sdk/MediaProvider" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Nfc"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Nfc" path="prebuilts/module_sdk/Nfc" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Scheduling"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Scheduling" path="prebuilts/module_sdk/Scheduling" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/SdkExtensions"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/SdkExtensions" path="prebuilts/module_sdk/SdkExtensions" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/StatsD"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/StatsD" path="prebuilts/module_sdk/StatsD" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/Telephony"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/Telephony" path="prebuilts/module_sdk/Telephony" clone-depth="1"/>
+<remove-project name="platform/prebuilts/module_sdk/WebViewBootstrap"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/module_sdk/WebViewBootstrap" path="prebuilts/module_sdk/WebViewBootstrap" clone-depth="1"/>
+<remove-project name="platform/prebuilts/ndk"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/ndk" path="prebuilts/ndk" clone-depth="1"/>
+<remove-project name="platform/prebuilts/qemu-kernel"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" clone-depth="1"/>
+<remove-project name="platform/prebuilts/rust"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/rust" path="prebuilts/rust" clone-depth="1"/>
+<remove-project name="platform/prebuilts/rust-toolchain/linux-musl-x86"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/rust-toolchain/linux-musl-x86" path="prebuilts/rust-toolchain/linux-musl-x86" clone-depth="1"/>
+<remove-project name="platform/prebuilts/rust-toolchain/linux-x86"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/rust-toolchain/linux-x86" path="prebuilts/rust-toolchain/linux-x86" clone-depth="1"/>
+<remove-project name="platform/prebuilts/siso"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/siso" path="prebuilts/siso" clone-depth="1"/>
+<remove-project name="platform/prebuilts/vndk/v32"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/vndk/v32" path="prebuilts/vndk/v32" clone-depth="1"/>
+<remove-project name="platform/prebuilts/vndk/v33"/>
+<project remote="clo-la-shallow" name="platform/prebuilts/vndk/v33" path="prebuilts/vndk/v33" clone-depth="1"/>
+<remove-project name="platform/tools/content_addressed_storage/prebuilts"/>
+<project remote="clo-la-shallow" name="platform/tools/content_addressed_storage/prebuilts" path="tools/content_addressed_storage/prebuilts" clone-depth="1"/>
+<remove-project name="platform/tools/deviceinfra/prebuilts"/>
+<project remote="clo-la-shallow" name="platform/tools/deviceinfra/prebuilts" path="tools/deviceinfra/prebuilts" clone-depth="1"/>
+<remove-project name="platform/tools/rr_prebuilt"/>
+<project remote="clo-la-shallow" name="platform/tools/rr_prebuilt" path="tools/rr_prebuilt" clone-depth="1"/>
+<remove-project name="platform/tools/tradefederation/prebuilts"/>
+<project remote="clo-la-shallow" name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" clone-depth="1"/>
+</manifest>
