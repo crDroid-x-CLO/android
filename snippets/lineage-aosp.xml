@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- LineageOS additions -->
+  <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los-aosp" />
+  <project path="device/lineage/car" name="android_device_lineage_car" remote="los-aosp" />
+  <project path="device/lineage/sepolicy" name="android_device_lineage_sepolicy" remote="los-aosp" />
+  <project path="external/bash" name="android_external_bash" remote="los-aosp" />
+  <project path="external/chromium-webview/patches" name="android_external_chromium-webview_patches" groups="pdk" remote="los-aosp" revision="main" >
+    <linkfile src="os_pickup.bp" dest="external/chromium-webview/Android.bp" />
+    <linkfile src="README" dest="external/chromium-webview/README" />
+  </project>
+  <project path="external/chromium-webview/prebuilt/arm" name="android_external_chromium-webview_prebuilt_arm" groups="pdk" remote="los-aosp" revision="main" />
+  <project path="external/chromium-webview/prebuilt/arm64" name="android_external_chromium-webview_prebuilt_arm64" groups="pdk" remote="los-aosp" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86" name="android_external_chromium-webview_prebuilt_x86" groups="pdk" remote="los-aosp" revision="main" />
+  <project path="external/chromium-webview/prebuilt/x86_64" name="android_external_chromium-webview_prebuilt_x86_64" groups="pdk" remote="los-aosp" revision="main" />
+  <project path="external/google-fonts/google-sans-flex" name="android_external_google-fonts_google-sans-flex" remote="los-aosp" />
+  <project path="external/htop" name="android_external_htop" remote="los-aosp" />
+  <project path="external/libncurses" name="android_external_libncurses" remote="los-aosp" />
+  <project path="external/nano" name="android_external_nano" remote="los-aosp" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los-aosp" />
+  <project path="external/openssh" name="android_external_openssh" groups="pdk" remote="los-aosp" />
+  <project path="external/rsync" name="android_external_rsync" remote="los-aosp" />
+  <project path="external/unrar" name="android_external_unrar" remote="los-aosp" />
+  <project path="external/vim" name="android_external_vim" remote="los-aosp" />
+  <project path="packages/apps/Aperture" name="android_packages_apps_Aperture" remote="los-aosp" />
+  <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" remote="los-aosp" />
+  <project path="packages/apps/Backgrounds" name="android_packages_apps_Backgrounds" remote="los-aosp" />
+  <project path="packages/apps/Camelot" name="android_packages_apps_Camelot" remote="los-aosp" />
+  <project path="packages/apps/Catapult" name="android_packages_apps_Catapult" remote="los-aosp" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="los-aosp" />
+  <project path="packages/apps/EuiccPolicy" name="android_packages_apps_EuiccPolicy" remote="los-aosp" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="los-aosp" />
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los-aosp" />
+  <project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" remote="los-aosp" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="los-aosp" />
+  <project path="packages/apps/Glimpse" name="android_packages_apps_Glimpse" remote="los-aosp" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="los-aosp" />
+  <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los-aosp" />
+  <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="los-aosp" />
+  <project path="packages/apps/Profiles" name="android_packages_apps_Profiles" remote="los-aosp" />
+  <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="los-aosp" />
+  <project path="packages/apps/Seedvault" name="android_packages_apps_Seedvault" remote="los-aosp" />
+  <project path="packages/apps/SetupWizard" name="android_packages_apps_SetupWizard" remote="los-aosp" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="los-aosp" />
+  <project path="packages/apps/SimpleSettingsConfig" name="android_packages_apps_SimpleSettingsConfig" remote="los-aosp" />
+  <project path="packages/apps/Twelve" name="android_packages_apps_Twelve" remote="los-aosp" />
+  <project path="packages/apps/Updater" name="android_packages_apps_Updater" remote="los-aosp" />
+  <project path="packages/overlays/Lineage" name="android_packages_overlays_Lineage" remote="los-aosp" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" clone-depth="1" remote="los-aosp" />
+  <project path="vendor/apn" name="android_vendor_apn" revision="main" remote="los-aosp" />
+  <project path="vendor/crowdin" name="android_vendor_crowdin" remote="los-aosp" />
+
+  <!-- Inline kernel build -->
+  <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" remote="los-aosp" revision="lineage-20.0" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los-aosp"  />
+
+  <!-- CodeLinaro additions -->
+  <project path="bootable/deprecated-ota" name="android_bootable_deprecated-ota" groups="pdk-cw,pdk-arsp-ag-sot,pdk-arsp-common" remote="los-aosp" />
+  <project path="device/qcom/sepolicy_vndr/legacy-um" name="android_device_qcom_sepolicy_vndr" groups="qcom,lahaina" revision="lineage-24.0-legacy-um" remote="los-aosp" />
+  <project path="device/qcom/sepolicy_vndr/sm8550" name="android_device_qcom_sepolicy_vndr" groups="qcom,kailua-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="android_device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="device/qcom/sepolicy_vndr/sm8750" name="android_device_qcom_sepolicy_vndr" groups="qcom,pakala-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8550/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,kailua-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,kailua-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,kailua-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,kailua-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,kailua-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8550/display" name="android_hardware_qcom_display" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8550" />
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,lanai-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,lanai-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8650/display" name="android_hardware_qcom_display" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8650" />
+  <project path="hardware/qcom-caf/sm8750/audio/agm" name="android_vendor_qcom_opensource_agm" groups="qcom,pakala-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/graphservices" name="android_vendor_qcom_opensource_audioreach-graphservices" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/pal" name="android_vendor_qcom_opensource_arpal-lx" groups="qcom,pakala-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/audio/primary-hal" name="android_hardware_qcom_audio-ar" groups="qcom,pakala-audio" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
+  <project path="hardware/qcom-caf/sm8750/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pakala-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/dataipa" name="android_vendor_qcom_opensource_dataipa" groups="qcom,pakala-vendor" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/core" name="android_vendor_qcom_opensource_display-core" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/hal" name="android_hardware_qcom_display" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/sm8750/display/intf" name="android_vendor_qcom_opensource_display-intf" groups="qcom" remote="los-aosp" revision="lineage-24.0-caf-sm8750" />
+  <project path="hardware/qcom-caf/thermal-legacy-um" name="android_hardware_qcom_thermal" groups="qcom,lanai-vendor" remote="los-aosp" revision="lineage-24.0-legacy-um" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,lahaina" remote="los-aosp" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal-ar-legacy" name="android_vendor_qcom_opensource_audio-hal_st-hal-ar" groups="qcom,lanai-audio" remote="los-aosp" revision="lineage-24.0-legacy" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lahaina" remote="los-aosp" revision="lineage-24.0-legacy-um" />
+  <project path="vendor/qcom/opensource/libqspa" name="android_vendor_qcom_opensource_libqspa" groups="qcom,k2c-le" remote="los-aosp" />
+  <project path="vendor/qcom/opensource/libvmmem" name="android_vendor_qcom_opensource_libvmmem" groups="qcom,k2c-le" remote="los-aosp" />
+
+  <!-- Infrastructure -->
+  <project path="lineage/charter" name="charter" groups="infra" remote="los-aosp" revision="main" />
+  <project path="lineage/crowdin" name="cm_crowdin" groups="infra" remote="los-aosp" revision="main" />
+  <project path="lineage/hudson" name="hudson" groups="infra" remote="los-aosp" revision="main" />
+  <project path="lineage/mirror" name="mirror" groups="infra" remote="los-aosp" revision="main" />
+  <project path="lineage/website" name="www" groups="infra" remote="los-aosp" revision="main" />
+  <project path="lineage/wiki" name="lineage_wiki" groups="infra" remote="los-aosp" revision="main" />
+
+  <!-- Pixel -->
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="los-aosp" />
+
+  <!-- Tools -->
+  <project path="lineage/contributors-cloud-generator" name="contributors-cloud-generator" groups="tools" remote="los-aosp" revision="main" />
+  <project path="lineage/scripts" name="scripts" groups="tools" remote="los-aosp" revision="main" />
+</manifest>
