@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- GApps -->
+  <project path="vendor/gapps" name="MindTheGapps/vendor_gapps" remote="github" revision="cinnamonbun" clone-depth="1" />
+
+</manifest>

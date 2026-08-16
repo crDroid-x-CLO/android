@@ -20,4 +20,6 @@
   <include name="snippets/lineage-aosp.xml"/>
   <!-- LineageOS-x-CLO -->
   <include name="snippets/lineage-clo.xml"/>
+  <!-- GMS -->
+  <include name="snippets/gms.xml"/>
 </manifest>
