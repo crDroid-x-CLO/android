@@ -228,7 +228,6 @@
 
   <!-- Vendor -->
   <project path="vendor/lineage" name="LineageOS-x-CLO/android_vendor_lineage" remote="los-clo" />
-  <project path="vendor/lineage-priv/keys" name="LineageOS-x-CLO/android_vendor_lineage-priv_keys" remote="los-clo" revision="main" />
 
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="platform/vendor/qcom-opensource/audio" />
