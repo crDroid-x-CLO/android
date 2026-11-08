@@ -3,15 +3,15 @@
 
   <!-- Bionic -->
   <remove-project name="platform/bionic" />
-  <project path="bionic" name="LineageOS-x-CLO/android_bionic" remote="los-clo" />
+  <project path="bionic" name="crDroid-x-CLO/android_bionic" remote="los-clo" revision="17.0"/>
 
   <!-- Bootable Recovery -->
   <remove-project name="platform/bootable/recovery" />
-  <project path="bootable/recovery" name="LineageOS-x-CLO/android_bootable_recovery" remote="los-clo" />
+  <project path="bootable/recovery" name="crDroid-x-CLO/android_bootable_recovery" remote="los-clo" revision="17.0"/>
 
   <!-- Build -->
   <remove-project name="platform/build_repo" />
-  <project path="build/make" name="LineageOS-x-CLO/android_build" remote="los-clo" >
+  <project path="build/make" name="crDroid-x-CLO/android_build" remote="los-clo" revision="17.0">
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -21,7 +21,7 @@
   </project>
 
   <remove-project name="platform/build/soong" />
-  <project path="build/soong" name="LineageOS-x-CLO/android_build_soong" remote="los-clo" >
+  <project path="build/soong" name="crDroid-x-CLO/android_build_soong" remote="los-clo" revision="17.0">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
@@ -67,21 +67,21 @@
 
   <!-- Frameworks -->
   <remove-project name="platform/frameworks/av" />
-  <project path="frameworks/av" name="LineageOS-x-CLO/android_frameworks_av" remote="los-clo" />
+  <project path="frameworks/av" name="crDroid-x-CLO/android_frameworks_av" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/frameworks/base" />
-  <project path="frameworks/base" name="LineageOS-x-CLO/android_frameworks_base" remote="los-clo" />
+  <project path="frameworks/base" name="crDroid-x-CLO/android_frameworks_base" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/frameworks/libs/systemui" />
-  <project path="frameworks/libs/systemui" name="LineageOS-x-CLO/android_frameworks_libs_systemui" remote="los-clo" />
+  <project path="frameworks/libs/systemui" name="crdroidandroid/android_frameworks_libs_systemui" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/frameworks/native" />
-  <project path="frameworks/native" name="LineageOS-x-CLO/android_frameworks_native" remote="los-clo" />
+  <project path="frameworks/native" name="crDroid-x-CLO/android_frameworks_native" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/frameworks/opt/telephony" />
-  <project path="frameworks/opt/telephony" name="LineageOS-x-CLO/android_frameworks_opt_telephony" remote="los-clo" />
+  <project path="frameworks/opt/telephony" name="crDroid-x-CLO/android_frameworks_opt_telephony" remote="los-clo" revision="17.0"/>
 
   <!-- Hardware -->
   <remove-project name="platform/hardware/broadcom/libbt" />
   <project path="hardware/broadcom/libbt" name="LineageOS-x-CLO/android_hardware_broadcom_libbt" remote="los-clo" />
   <remove-project name="platform/hardware/interfaces" />
-  <project path="hardware/interfaces" name="LineageOS-x-CLO/android_hardware_interfaces" remote="los-clo" />
+  <project path="hardware/interfaces" name="crDroid-x-CLO/android_hardware_interfaces" remote="los-clo" revision="17.0"/>
   <project path="hardware/lineage/compat" name="LineageOS-x-CLO/android_hardware_lineage_compat" remote="los-clo" />
   <project path="hardware/lineage/interfaces" name="LineageOS-x-CLO/android_hardware_lineage_interfaces" remote="los-clo" />
   <remove-project name="platform/hardware/libhardware" />
@@ -108,7 +108,7 @@
   </project>
 
   <!-- Manifest -->
-  <project path="manifest" name="LineageOS-x-CLO/android" remote="los-clo" />
+  <project path="manifest" name="crDroid-x-CLO/android" remote="los-clo" revision="17.0" />
 
   <!-- Packages apps -->
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
@@ -116,48 +116,48 @@
   <remove-project name="platform/packages/apps/Contacts" />
   <project path="packages/apps/Contacts" name="LineageOS-x-CLO/android_packages_apps_Contacts" remote="los-clo" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/Dialer" name="LineageOS-x-CLO/android_packages_apps_Dialer" remote="los-clo" />
+  <project path="packages/apps/Dialer" name="crDroid-x-CLO/android_packages_apps_Dialer" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/DocumentsUI" />
-  <project path="packages/apps/DocumentsUI" name="LineageOS-x-CLO/android_packages_apps_DocumentsUI" remote="los-clo" />
+  <project path="packages/apps/DocumentsUI" name="crDroid-x-CLO/android_packages_apps_DocumentsUI" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/EmergencyInfo" name="LineageOS-x-CLO/android_packages_apps_EmergencyInfo" remote="los-clo" />
   <project path="packages/apps/Etar" name="LineageOS-x-CLO/android_packages_apps_Etar" remote="los-clo" />
   <remove-project name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/Launcher3" name="LineageOS-x-CLO/android_packages_apps_Launcher3" remote="los-clo" />
+  <project path="packages/apps/Launcher3" name="crDroid-x-CLO/android_packages_apps_Launcher3" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/Messaging" />
-  <project path="packages/apps/Messaging" name="LineageOS-x-CLO/android_packages_apps_Messaging" remote="los-clo" />
+  <project path="packages/apps/Messaging" name="crDroid-x-CLO/android_packages_apps_Messaging" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/Settings" />
-  <project path="packages/apps/Settings" name="LineageOS-x-CLO/android_packages_apps_Settings" remote="los-clo" />
+  <project path="packages/apps/Settings" name="crDroid-x-CLO/android_packages_apps_Settings" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
-  <project path="packages/apps/SettingsIntelligence" name="LineageOS-x-CLO/android_packages_apps_SettingsIntelligence" remote="los-clo" />
+  <project path="packages/apps/SettingsIntelligence" name="crDroid-x-CLO/android_packages_apps_SettingsIntelligence" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/Stk" />
   <project path="packages/apps/Stk" name="LineageOS-x-CLO/android_packages_apps_Stk" remote="los-clo" />
   <remove-project name="platform/packages/apps/Tag" />
   <project path="packages/apps/Tag" name="LineageOS-x-CLO/android_packages_apps_Tag" remote="los-clo" />
   <remove-project name="platform/packages/apps/ThemePicker" />
-  <project path="packages/apps/ThemePicker" name="LineageOS-x-CLO/android_packages_apps_ThemePicker" remote="los-clo" />
+  <project path="packages/apps/ThemePicker" name="crDroid-x-CLO/android_packages_apps_ThemePicker" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <project path="packages/apps/WallpaperPicker2" name="LineageOS-x-CLO/android_packages_apps_WallpaperPicker2" remote="los-clo" />
+  <project path="packages/apps/WallpaperPicker2" name="crDroid-x-CLO/android_packages_apps_WallpaperPicker2" remote="los-clo" revision="17.0"/>
 
   <!-- Packages inputmethods --> 
   <remove-project name="platform/packages/inputmethods/LeanbackIME" />
   <project path="packages/inputmethods/LeanbackIME" name="LineageOS-x-CLO/android_packages_inputmethods_LeanbackIME" remote="los-clo" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <project path="packages/inputmethods/LatinIME" name="LineageOS-x-CLO/android_packages_inputmethods_LatinIME" remote="los-clo" />
+  <project path="packages/inputmethods/LatinIME" name="crDroid-x-CLO/android_packages_inputmethods_LatinIME" remote="los-clo" revision="17.0"/>
 
   <!-- Packages modules --> 
   <remove-project name="platform/packages/modules/adb" />
   <project path="packages/modules/adb" name="LineageOS-x-CLO/android_packages_modules_adb" remote="los-clo" />
   <remove-project name="platform/packages/modules/Bluetooth" />
-  <project path="packages/modules/Bluetooth" name="LineageOS-x-CLO/android_packages_modules_Bluetooth" remote="los-clo" />
+  <project path="packages/modules/Bluetooth" name="crDroid-x-CLO/android_packages_modules_Bluetooth" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Connectivity" />
-  <project path="packages/modules/Connectivity" name="LineageOS-x-CLO/android_packages_modules_Connectivity" remote="los-clo" />
+  <project path="packages/modules/Connectivity" name="crDroid-x-CLO/android_packages_modules_Connectivity" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Nfc" />
   <project path="packages/modules/Nfc" name="LineageOS-x-CLO/android_packages_modules_Nfc" remote="los-clo" />
   <remove-project name="platform/packages/modules/Permission" />
-  <project path="packages/modules/Permission" name="LineageOS-x-CLO/android_packages_modules_Permission" remote="los-clo" />
+  <project path="packages/modules/Permission" name="crDroid-x-CLO/android_packages_modules_Permission" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Wifi" />
-  <project path="packages/modules/Wifi" name="LineageOS-x-CLO/android_packages_modules_Wifi" remote="los-clo" />
+  <project path="packages/modules/Wifi" name="crDroid-x-CLO/android_packages_modules_Wifi" remote="los-clo" revision="17.0"/>
 
   <!-- Packages providers -->  
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
@@ -186,11 +186,11 @@
 
   <!-- Packages services -->
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
-  <project path="packages/services/DeviceAsWebcam" name="LineageOS-x-CLO/android_packages_services_DeviceAsWebcam" remote="los-clo" />
+  <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/services/Mms" />
   <project path="packages/services/Mms" name="LineageOS-x-CLO/android_packages_services_Mms" remote="los-clo" />
   <remove-project name="platform/packages/services/Telephony" />
-  <project path="packages/services/Telephony" name="LineageOS-x-CLO/android_packages_services_Telephony" remote="los-clo" />
+  <project path="packages/services/Telephony" name="crDroid-x-CLO/android_packages_services_Telephony" remote="los-clo" revision="17.0"/>
 
   <!-- Packages wallpapers --> 
   <remove-project name="platform/packages/wallpapers/LivePicker" />
@@ -203,11 +203,11 @@
   <remove-project name="platform/system/chre" />
   <project path="system/chre" name="LineageOS-x-CLO/android_system_chre" remote="los-clo" />
   <remove-project name="platform/system/core" />
-  <project path="system/core" name="LineageOS-x-CLO/android_system_core" remote="los-clo" />
+  <project path="system/core" name="crDroid-x-CLO/android_system_core" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/system/extras" />
   <project path="system/extras" name="LineageOS-x-CLO/android_system_extras" remote="los-clo" />
   <remove-project name="platform/system/fs/fs_mgr" />
-  <project path="system/fs/fs_mgr" name="LineageOS-x-CLO/android_system_fs_fs_mgr" remote="los-clo" />
+  <project path="system/fs/fs_mgr" name="crDroid-x-CLO/android_system_fs_fs_mgr" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/system/libziparchive" />
   <project path="system/libziparchive" name="LineageOS-x-CLO/android_system_libziparchive" remote="los-clo" />
   <remove-project name="platform/system/logging" />
@@ -217,17 +217,17 @@
   <remove-project name="platform/system/netd" />
   <project path="system/netd" name="LineageOS-x-CLO/android_system_netd" remote="los-clo" />
   <remove-project name="platform/system/sepolicy" />
-  <project path="system/sepolicy" name="LineageOS-x-CLO/android_system_sepolicy" remote="los-clo" />
+  <project path="system/sepolicy" name="crDroid-x-CLO/android_system_sepolicy" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/system/update_engine" />
-  <project path="system/update_engine" name="LineageOS-x-CLO/android_system_update_engine" remote="los-clo" />
+  <project path="system/update_engine" name="crDroid-x-CLO/android_system_update_engine" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/system/vold" />
-  <project path="system/vold" name="LineageOS-x-CLO/android_system_vold" remote="los-clo" />
+  <project path="system/vold" name="crDroid-x-CLO/android_system_vold" remote="los-clo" revision="17.0"/>
 
   <!-- Lineage SDK -->
-  <project path="lineage-sdk" name="LineageOS-x-CLO/android_lineage-sdk" remote="los-clo" />
+  <project path="lineage-sdk" name="crDroid-x-CLO/android_lineage-sdk" remote="los-clo" revision="17.0"/>
 
   <!-- Vendor -->
-  <project path="vendor/lineage" name="LineageOS-x-CLO/android_vendor_lineage" remote="los-clo" />
+  <project path="vendor/lineage" name="crDroid-x-CLO/android_vendor_crdroid" remote="los-clo" revision="17.0"/>
 
   <!-- Vendor (QCOM QSSI) -->
   <remove-project name="platform/vendor/qcom-opensource/audio" />

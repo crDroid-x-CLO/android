@@ -22,4 +22,6 @@
   <include name="snippets/lineage-clo.xml"/>
   <!-- GMS -->
   <include name="snippets/gms.xml"/>
+  <!-- crDroid-x-CLO -->
+  <include name="snippets/crdroid-x-clo.xml"/>
 </manifest>
