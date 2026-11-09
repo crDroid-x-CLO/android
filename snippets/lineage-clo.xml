@@ -153,7 +153,7 @@
   <remove-project name="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Connectivity" name="crDroid-x-CLO/android_packages_modules_Connectivity" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Nfc" />
-  <project path="packages/modules/Nfc" name="LineageOS-x-CLO/android_packages_modules_Nfc" remote="los-clo" />
+  <project path="packages/modules/Nfc" name="crDroid-x-CLO/android_packages_modules_Nfc" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Permission" />
   <project path="packages/modules/Permission" name="crDroid-x-CLO/android_packages_modules_Permission" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Wifi" />
