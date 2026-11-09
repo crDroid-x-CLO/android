@@ -11,12 +11,15 @@ How it is put together
 * Repositories that both crDroid and LineageOS-x-CLO modify are forked here, on branch `17.0`.
   Each one is LineageOS-x-CLO `lineage-24.0` with crDroid `17.0` merged in.
 * `vendor/lineage` is crDroid's `vendor_crdroid`, with LineageOS-x-CLO's `vendor_lineage` changes merged in.
+* `art`, `external/bouncycastle`, `frameworks/opt/net/wifi` and `system/memory/libmeminfo` come from
+  CodeLinaro in LineageOS-x-CLO. Here they are CodeLinaro's pinned revision with crDroid's own commits
+  cherry-picked on top.
 * crDroid-only apps and services are pulled straight from [crdroidandroid](https://github.com/crdroidandroid).
   See `snippets/crdroid-x-clo.xml`.
 * Everything else comes from LineageOS-x-CLO, LineageOS and CodeLinaro, exactly as upstream.
 
-Not ported yet: crDroid's changes to `art`, `external/bouncycastle`, `external/jemalloc_new`,
-`frameworks/opt/net/wifi` and `system/memory/libmeminfo`. These use the CLO versions for now.
+Not ported: crDroid's `external/jemalloc_new`. It is a different jemalloc snapshot rather than a
+patch series, and nothing in the tree depends on it, so the CodeLinaro version is used.
 
 Credits: [LineageOS-x-CLO](https://github.com/LineageOS-x-CLO), [crDroid](https://github.com/crdroidandroid),
 [LineageOS](https://github.com/LineageOS), [CodeLinaro](https://git.codelinaro.org/clo/la).
