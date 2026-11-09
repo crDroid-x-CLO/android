@@ -36,7 +36,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/avb" />
-  <project path="external/avb" name="LineageOS-x-CLO/android_external_avb" remote="los-clo" />
+  <project path="external/avb" name="crDroid-x-CLO/android_external_avb" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/external/dng_sdk" />
   <project path="external/dng_sdk" name="LineageOS-x-CLO/android_external_dng_sdk" remote="los-clo" />
   <remove-project name="platform/external/dtc" />
