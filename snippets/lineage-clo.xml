@@ -48,7 +48,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="LineageOS-x-CLO/android_external_gptfdisk" remote="los-clo" />
   <remove-project name="platform/external/libjxl" />
-  <project path="external/libjxl" name="LineageOS-x-CLO/android_external_libjxl" remote="los-clo" />
+  <project path="external/libjxl" name="crDroid-x-CLO/android_external_libjxl" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="LineageOS-x-CLO/android_external_mksh" remote="los-clo" />
   <remove-project name="platform/external/setupcompat" />
