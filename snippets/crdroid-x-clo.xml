@@ -40,6 +40,8 @@
   <project path="external/hplip" name="crDroid-x-CLO/android_external_hplip" remote="los-clo" revision="17.0" groups="25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
   <remove-project name="platform/external/libcupsfilters" />
   <project path="external/libcupsfilters" name="crDroid-x-CLO/android_external_libcupsfilters" remote="los-clo" revision="17.0" groups="25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3,vsdk_exc_L4,vsdk_exc_L5" />
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="crDroid-x-CLO/android_external_libhevc" remote="los-clo" revision="17.0" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
 
   <!-- LineageOS apps replaced by crDroid versions -->
   <remove-project name="android_packages_apps_Backgrounds" />
