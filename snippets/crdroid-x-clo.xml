@@ -58,6 +58,8 @@
   <project path="packages/apps/ManagedProvisioning" name="crDroid-x-CLO/android_packages_apps_ManagedProvisioning" remote="los-clo" revision="17.0" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L3" />
   <remove-project name="platform/packages/modules/IntentResolver" />
   <project path="packages/modules/IntentResolver" name="crDroid-x-CLO/android_packages_modules_IntentResolver" remote="los-clo" revision="17.0" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,sysui-studio,trunk-fs-release,qc-common-sys-intf,vsdk_exc_L2,vsdk_exc_L1,vsdk_exc_L0,vsdk_exc_L3" />
+  <remove-project name="platform/packages/modules/NeuralNetworks" />
+  <project path="packages/modules/NeuralNetworks" name="crDroid-x-CLO/android_packages_modules_NeuralNetworks" remote="los-clo" revision="17.0" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk-cw-fs,pdk-fs,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L1,vsdk_exc_L2,vsdk_exc_L3" />
 
   <!-- LineageOS apps replaced by crDroid versions -->
   <remove-project name="android_packages_apps_Backgrounds" />
