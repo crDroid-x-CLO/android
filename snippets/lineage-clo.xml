@@ -114,7 +114,7 @@
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CellBroadcastReceiver" name="LineageOS-x-CLO/android_packages_apps_CellBroadcastReceiver" remote="los-clo" />
   <remove-project name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/Contacts" name="LineageOS-x-CLO/android_packages_apps_Contacts" remote="los-clo" />
+  <project path="packages/apps/Contacts" name="crDroid-x-CLO/android_packages_apps_Contacts" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Dialer" name="crDroid-x-CLO/android_packages_apps_Dialer" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/apps/DocumentsUI" />
