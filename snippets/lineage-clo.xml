@@ -175,7 +175,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/MediaProvider" name="crDroid-x-CLO/android_packages_providers_MediaProvider" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <project path="packages/providers/TelephonyProvider" name="LineageOS-x-CLO/android_packages_providers_TelephonyProvider" remote="los-clo" />
+  <project path="packages/providers/TelephonyProvider" name="crDroid-x-CLO/android_packages_providers_TelephonyProvider" remote="los-clo" revision="17.0"/>
 
   <!-- Packages resources  -->  
   <project path="packages/resources/devicesettings" name="LineageOS-x-CLO/android_packages_resources_devicesettings" remote="los-clo" />
