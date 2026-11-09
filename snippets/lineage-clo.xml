@@ -173,7 +173,7 @@
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/DownloadProvider" name="crDroid-x-CLO/android_packages_providers_DownloadProvider" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/providers/MediaProvider" />
-  <project path="packages/providers/MediaProvider" name="LineageOS-x-CLO/android_packages_providers_MediaProvider" remote="los-clo" />
+  <project path="packages/providers/MediaProvider" name="crDroid-x-CLO/android_packages_providers_MediaProvider" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/providers/TelephonyProvider" />
   <project path="packages/providers/TelephonyProvider" name="LineageOS-x-CLO/android_packages_providers_TelephonyProvider" remote="los-clo" />
 
