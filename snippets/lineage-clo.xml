@@ -147,7 +147,7 @@
 
   <!-- Packages modules --> 
   <remove-project name="platform/packages/modules/adb" />
-  <project path="packages/modules/adb" name="LineageOS-x-CLO/android_packages_modules_adb" remote="los-clo" />
+  <project path="packages/modules/adb" name="crDroid-x-CLO/android_packages_modules_adb" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Bluetooth" name="crDroid-x-CLO/android_packages_modules_Bluetooth" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/modules/Connectivity" />
