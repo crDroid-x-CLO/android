@@ -87,7 +87,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <project path="hardware/libhardware" name="LineageOS-x-CLO/android_hardware_libhardware" remote="los-clo" />
   <remove-project name="platform/hardware/nxp/nfc" />
-  <project path="hardware/nxp/nfc" name="LineageOS-x-CLO/android_hardware_nxp_nfc" remote="los-clo" />
+  <project path="hardware/nxp/nfc" name="crDroid-x-CLO/android_hardware_nxp_nfc" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/hardware/st/nfc" />
   <project path="hardware/st/nfc" name="LineageOS-x-CLO/android_hardware_st_nfc" remote="los-clo" />
 
