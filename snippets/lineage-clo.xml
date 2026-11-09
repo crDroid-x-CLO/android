@@ -188,7 +188,7 @@
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
   <project path="packages/services/DeviceAsWebcam" name="crdroidandroid/android_packages_services_DeviceAsWebcam" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/services/Mms" />
-  <project path="packages/services/Mms" name="LineageOS-x-CLO/android_packages_services_Mms" remote="los-clo" />
+  <project path="packages/services/Mms" name="crDroid-x-CLO/android_packages_services_Mms" remote="los-clo" revision="17.0"/>
   <remove-project name="platform/packages/services/Telephony" />
   <project path="packages/services/Telephony" name="crDroid-x-CLO/android_packages_services_Telephony" remote="los-clo" revision="17.0"/>
 
