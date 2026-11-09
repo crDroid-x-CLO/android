@@ -13,6 +13,10 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <project path="packages/services/Telecomm" name="crDroid-x-CLO/android_packages_services_Telecomm" remote="los-clo" revision="17.0" />
 
+  <!-- frameworks/opt/net/wifi: CLO + crDroid's WifiTrackerLib change -->
+  <remove-project name="platform/frameworks/opt/net/wifi" />
+  <project path="frameworks/opt/net/wifi" name="crDroid-x-CLO/android_frameworks_opt_net_wifi" remote="los-clo" revision="17.0" groups="24Q3-fs-release,25Q2-fs-release,25Q4-fs-release,26Q2-fs-release,pdk,sysui-studio,trunk-fs-release,qc-common-sys-intf,vsdk_inc_L2,vsdk_inc_L1,vsdk_inc_L3" />
+
   <!-- LineageOS apps replaced by crDroid versions -->
   <remove-project name="android_packages_apps_Backgrounds" />
   <remove-project name="android_packages_apps_Glimpse" />
@@ -51,6 +55,6 @@
 
   <!--
     Not ported yet (crDroid carries changes, CLO versions are used for now):
-    art, external/bouncycastle, external/jemalloc_new, frameworks/opt/net/wifi, system/memory/libmeminfo
+    art, external/bouncycastle, external/jemalloc_new, system/memory/libmeminfo
   -->
 </manifest>
